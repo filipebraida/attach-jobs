@@ -29,7 +29,8 @@
     "#database/*": "./database/*.js",
     "#tests/*": "./tests/*.js",
     "#start/*": "./start/*.js",
-    "#config/*": "./config/*.js"
+    "#config/*": "./config/*.js",
+    "#jobs/*": "./app/jobs/*.js"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^7.8.2",
@@ -58,6 +59,7 @@
     "@adonisjs/shield": "^8.1.1",
     "@adonisjs/static": "^1.1.1",
     "@adonisjs/vite": "^3.0.0",
+    "@jrmc/adonis-attachment": "^2.4.1",
     "@vinejs/vine": "^2.1.0",
     "adonisjs-jobs": "^0.0.21",
     "better-sqlite3": "^11.5.0",
